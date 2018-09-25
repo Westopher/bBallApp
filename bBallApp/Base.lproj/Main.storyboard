@@ -28,10 +28,12 @@
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="16"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BqE-hg-206" customClass="Border_Button" customModule="bBallApp" customModuleProvider="target">
-                                <rect key="frame" x="16" y="576" width="343" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BqE-hg-206" customClass="Border_Button" customModule="bBallApp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="597" width="343" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.39597602739726029" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="doK-06-K0I"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <state key="normal" title="GET STARTED">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -59,9 +61,12 @@
                             <constraint firstItem="KP6-JF-6Ay" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="CBi-zp-BB1"/>
                             <constraint firstItem="tnG-yx-ZFT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ESf-yo-h1h"/>
                             <constraint firstItem="VjT-0q-eo9" firstAttribute="width" secondItem="9Kn-IR-nLe" secondAttribute="width" id="FOO-wg-kF4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BqE-hg-206" secondAttribute="trailing" constant="16" id="JNK-2K-uIA"/>
                             <constraint firstItem="1BL-Fq-4YR" firstAttribute="top" secondItem="VjT-0q-eo9" secondAttribute="bottom" constant="15" id="JtN-oF-Phs"/>
                             <constraint firstItem="1BL-Fq-4YR" firstAttribute="width" secondItem="VjT-0q-eo9" secondAttribute="width" id="dWA-3a-hdw"/>
+                            <constraint firstItem="BqE-hg-206" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="dsq-C2-PiZ"/>
                             <constraint firstItem="1BL-Fq-4YR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fZM-f4-Vbg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BqE-hg-206" secondAttribute="bottom" constant="20" id="h5u-JL-xGr"/>
                             <constraint firstItem="VjT-0q-eo9" firstAttribute="top" secondItem="9Kn-IR-nLe" secondAttribute="bottom" id="meK-9e-uZM"/>
                             <constraint firstItem="KP6-JF-6Ay" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oVm-Ax-gSz"/>
                             <constraint firstItem="VjT-0q-eo9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s98-Fi-qmo"/>
