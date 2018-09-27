@@ -112,39 +112,44 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XwM-cY-g5F" customClass="Border_Button" customModule="bBallApp" customModuleProvider="target">
-                                <rect key="frame" x="16" y="308" width="343" height="50"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.39597602739999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="v64-kR-O0b"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Co-ed">
-                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SbD-2h-FJL" customClass="Border_Button" customModule="bBallApp" customModuleProvider="target">
-                                <rect key="frame" x="16" y="237" width="343" height="50"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.39597602739999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="ytF-mV-Rah"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Women's">
-                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8g6-lO-2oJ" customClass="Border_Button" customModule="bBallApp" customModuleProvider="target">
-                                <rect key="frame" x="16" y="179" width="343" height="50"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.39597602739999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="lb3-sh-Wfv"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
-                                <state key="normal" title="Men's">
-                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="uAR-Yn-45t">
+                                <rect key="frame" x="0.0" y="170" width="375" height="180"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8g6-lO-2oJ" customClass="Border_Button" customModule="bBallApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.39597602739999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="lb3-sh-Wfv"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                        <state key="normal" title="Men's">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SbD-2h-FJL" customClass="Border_Button" customModule="bBallApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="65" width="375" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.39597602739999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="ytF-mV-Rah"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                        <state key="normal" title="Women's">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XwM-cY-g5F" customClass="Border_Button" customModule="bBallApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="130" width="375" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.39597602739999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="v64-kR-O0b"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                        <state key="normal" title="Co-ed">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGD-hO-Q7a" customClass="Border_Button" customModule="bBallApp" customModuleProvider="target">
                                 <rect key="frame" x="16" y="597" width="343" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.39597602739999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -159,12 +164,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="uAR-Yn-45t" firstAttribute="top" secondItem="E3h-wf-QGq" secondAttribute="bottom" constant="50" id="42j-E5-4dq"/>
                             <constraint firstItem="E3h-wf-QGq" firstAttribute="top" secondItem="JJp-Qx-k6H" secondAttribute="top" constant="20" id="7h1-VT-PWF"/>
                             <constraint firstItem="Qc9-5R-1MB" firstAttribute="leading" secondItem="JJp-Qx-k6H" secondAttribute="leading" id="7kj-hj-cUm"/>
                             <constraint firstItem="Qc9-5R-1MB" firstAttribute="trailing" secondItem="JJp-Qx-k6H" secondAttribute="trailing" id="Gr3-YJ-bdr"/>
                             <constraint firstItem="Qc9-5R-1MB" firstAttribute="bottom" secondItem="JJp-Qx-k6H" secondAttribute="bottom" id="Ria-0Q-Cyw"/>
+                            <constraint firstItem="JJp-Qx-k6H" firstAttribute="trailing" secondItem="uAR-Yn-45t" secondAttribute="trailing" id="bQE-tb-1ya"/>
                             <constraint firstItem="JJp-Qx-k6H" firstAttribute="trailing" secondItem="E3h-wf-QGq" secondAttribute="trailing" id="jKU-EC-Xbs"/>
                             <constraint firstItem="E3h-wf-QGq" firstAttribute="leading" secondItem="JJp-Qx-k6H" secondAttribute="leading" id="rJs-YZ-ZaO"/>
+                            <constraint firstItem="uAR-Yn-45t" firstAttribute="leading" secondItem="JJp-Qx-k6H" secondAttribute="leading" id="v0K-k2-CE6"/>
                             <constraint firstItem="Qc9-5R-1MB" firstAttribute="top" secondItem="tfG-m4-5rf" secondAttribute="top" id="yu8-0n-VoK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JJp-Qx-k6H"/>
