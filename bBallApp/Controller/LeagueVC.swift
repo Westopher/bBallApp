@@ -12,6 +12,11 @@ class LeagueVC: UIViewController {
 
     var player: Player!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        player = Player()
+    }
+    
     @IBOutlet weak var nextBtn: Border_Button!
     
     @IBAction func onMensTapped(_ sender: Any) {
@@ -35,12 +40,13 @@ class LeagueVC: UIViewController {
         performSegue(withIdentifier: "skillVCSegue", sender: self)
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        player = Player()
-     
-    }
+   
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let skillVC = segue.destination as? SkillVC {
+            skillVC.player = player
+        }
+    }
 
 
 }
